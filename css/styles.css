@@ -1,0 +1,176 @@
+/*font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.header {
+  background-color: #fff;
+}
+.header-link {
+  text-decoration: none;
+  font-family: "raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-item:hover {
+  color: #2196f3;
+}
+.header-adress {
+  list-style: none;
+}
+.header-email {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+}
+.header-email:hover {
+  color: #2196f3;
+}
+.header-phone {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-phone:hover {
+  color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.about {
+  background-color: #fff;
+}
+.about-title {
+  display: none;
+}
+.about-list {
+  list-style: none;
+}
+.about-title-2 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.whatwedo {
+  background-color: #fff;
+}
+.whatwedo-list {
+  list-style: none;
+}
+.whatwedo-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.ourteam {
+  background-color: #f5f4fa;
+}
+.ourteam-list {
+  list-style: none;
+}
+.ourteam-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.ourteam-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.adress {
+  color: #fff;
+}
+.porfolio-nav {
+  list-style: none;
+}
+.portfolio-product {
+  list-style: none;
+}
+.portfolio-product-title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-product-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+/*
+nav
+about-item
+regular-text
+whatwedo
+whatwedo-list
+whatwedo-item
+whatwedo-link
+whatwedo-img
+ourteam-img
+ourteam-item 
+portfolio-product-item
+portfolio-product-img*/
