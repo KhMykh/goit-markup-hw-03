@@ -12,6 +12,13 @@ body {
 .header {
   background-color: #fff;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
 .header-link {
   text-decoration: none;
   font-family: "raleway", sans-serif;
@@ -20,11 +27,30 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-left: 215px;
+
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
-.nav-list {
+
+ul.nav-main {
+  display: flex;
+  padding: 0;
+  margin: 0px;
+  margin-left: 93px;
+
   list-style: none;
 }
+
+.nav-list:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-item {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -35,92 +61,147 @@ body {
 .nav-item:hover {
   color: #2196f3;
 }
-.header-adress {
+ul.header-adress {
   list-style: none;
-}
-.header-email {
+  display: flex;
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  color: #757575;
+
+  padding-left: 0px;
+  margin-left: auto;
+}
+
+.header-email {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  margin-right: 50px;
+
   color: #757575;
 }
 .header-email:hover {
   color: #2196f3;
 }
 .header-phone {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
   letter-spacing: 0.02em;
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
   color: #757575;
+  margin-right: 215px;
 }
 .header-phone:hover {
   color: #2196f3;
 }
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0;
+  padding: 200px 452px 30px;
 }
-.hero-button {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+
+p.hero-button {
+  display: inline-block;
+  border: 1px solid transparent;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 135px;
+  margin: 0px 0px 210px;
+
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 30px;
   letter-spacing: 0.06em;
+
   color: #ffffff;
-  background-color: #2196f3;
 }
-.about {
+
+section.about {
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 .about-title {
   display: none;
 }
 .about-list {
   list-style: none;
+  display: flex;
+  padding: 0;
 }
 .about-title-2 {
   font-weight: 900;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  width: 270px;
+  height: 16px;
+  margin: 0px;
 }
 .about-text {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+  width: 270px;
+  height: 75px;
+  margin: 10px 30px 0px 0px;
 }
 .whatwedo {
   background-color: #fff;
 }
 .whatwedo-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 .whatwedo-title {
   font-weight: 900;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin: 94px 0px 50px;
+}
+
+.whatwedo-item:not(:last-child) {
+  margin-right: 30px;
 }
 .ourteam {
   background-color: #f5f4fa;
 }
 .ourteam-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ourteam-item {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin: 0px 30px 94px 0px;
 }
 .ourteam-title {
   font-weight: 500;
@@ -160,7 +241,41 @@ body {
   line-height: 1.87;
   color: #757575;
 }
+.adress {
+  margin-left: 215px;
+}
+.footer-adress {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+
+  padding: 0px;
+  margin: 0px;
+  margin-left: 215px;
+  margin-bottom: 9px;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: #757575;
+  margin: 9px 0px;
+}
+.footer-email:hover {
+  color: #2196f3;
+}
+.footer-phone {
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+
+.footer-phone:hover {
+  color: #2196f3;
+}
 /*
 nav
 about-item
